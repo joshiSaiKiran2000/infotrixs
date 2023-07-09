@@ -1,0 +1,236 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+
+body {
+    background-color: rgb(3, 3, 46);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(9, 9, 76);
+   
+   
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+   
+}
+.list{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 18px;
+}
+nav ul li{
+   
+    margin: 0 23px;
+    
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    
+}
+
+.leftsection{
+
+    width: 34%;
+    margin-top: 100px;
+    font-size: 25px;
+}
+.rightsection{
+    width: 20%;
+    margin: 10px;
+    margin-top: 30px;
+    background-attachment: fixed;
+
+}
+.image{
+    width: 300px;
+    height: 400px;
+}
+.line{
+    background-color: red;
+    height: 5px;
+    border-style: none;
+    margin-top: 80px;
+}
+
+.skills-section-subheading{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "roboto";
+    margin-bottom: 3px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.skills-card{
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 3px;
+}
+.skill-card-image{
+    width: 200px;
+    height: 200px;
+}
+.skill-card-title{
+    color: white;
+    font-family: roboto;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.skill-section{
+    display: flex;
+    margin-left: 12px;
+    text-align: center;
+    justify-content: center;
+    
+   
+
+}
+.formargin{
+
+    margin-left: 50px;
+}
+.secondsection{
+    background-color: #1f2933;
+}
+.jenny-heading-two{
+    color: #cced00;
+    font-size: 20px;
+}
+.phone-description{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #9aa5b1;
+}
+.third-section{
+ 
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    font-size: 25px;
+}
+.ram{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.linetwo{
+    background-color: white;
+    height: 5px;
+    border-style: none;
+    margin-top: 80px;
+}
+.projects-section-sub-heading{
+    margin-bottom: 5px;
+    color: rgb(11, 116, 51);
+    font-family: "Copperplate Gothic Light";
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.projects-section-heading{
+    color: #de371d;
+    font-family: "Copperplate Gothic Light";
+    font-size: 36px;
+    font-weight: bold;
+
+}
+.projects-card{
+    margin-bottom: 8px;
+    margin-top: 10px;
+    background: lavender;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+
+.projects-card-image {
+    width: 25%;
+}
+.projects-card-sub-title {
+    color: red;
+    font-family: "Gabriola";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.projects-card-title {
+    color: black;
+    font-family: "Gabriola";
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.projects-card-description {
+    color: black;
+    font-family: "Cordia New";
+    font-size: 20px;
+}
+
+.projects-card-link {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.thirdproject{
+    margin-top: 70px;
+}
+.person-name {
+    color: red;
+    font-family: 'Gabriola';
+}
+.heading{
+    font-family: 'Gabriola';
+    font-size: 35px;
+}
+.project{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 35px;
+}
